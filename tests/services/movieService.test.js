@@ -2,7 +2,6 @@ const movieService = require('../../src/services/movies');
 const ratingService = require('../../src/services/ratings');
 const movieRepository = require('../../src/repositories/movies');
 const { numberToDollars } = require('../../src/utils/currency');
-const { default: knex } = require('knex');
 
 const MOVIE_LIST_STRUCT = {
   imdbId: "1234asdf",
