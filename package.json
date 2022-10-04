@@ -4,7 +4,8 @@
   "description": "Aetna Code Test",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "test": "jest --forceExit"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "sqlite3": "^5.1.1"
   },
   "devDependencies": {
+    "jest": "^29.1.2",
     "nodemon": "^2.0.20"
   }
 }
